@@ -46,6 +46,7 @@ a{
     margin: 0 auto;
     /* background-color: black; */
     height: 1400px;
+    margin-bottom:250px;
 }
 
 .container_carte{
@@ -143,4 +144,61 @@ a{
     font-weight: normal;
     text-decoration: line-through;
     padding:2px;
+}
+
+/*footer*/
+
+footer{
+background-color: black;
+
+}
+.container_footer{
+    height: 150px;;
+    align-items: center;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 70%;
+    margin:0 auto;
+    padding:40px;
+    color:white;
+    font-size:40px;
+}
+
+.container_footer a{
+    font-size:20px;
+    color:white;
+}
+
+.container_footer p{
+    align-self: flex-start;
+}
+
+.info{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.info p{
+font-size: 30px;
+font-weight: bold;
+}
+.link{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.link a{
+    margin:0;
+}
+
+.social{
+    text-align:center;
+    font-size: 30px;
+}
+
+.social_icon a{
+    font-size: 30px;
+    margin-top:20px;
 }
