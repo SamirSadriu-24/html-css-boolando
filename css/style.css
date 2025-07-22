@@ -39,3 +39,35 @@ a{
 }
 
 
+/* main */
+
+.main_container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    height: 1400px;
+}
+
+.container_carte{
+    margin: 60px 0px;
+    height: 1400px;
+    background-color: pink;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px;
+}
+
+.prodotto{
+    background-color: blue;
+    width: calc((100% / 3) - (60px / 3));
+    border:2px white solid;
+    height: calc(100% / 2);
+}
+
+.card{
+    height: 80%;
+    background-color: #fff;
+    width: 90%;
+}
