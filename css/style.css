@@ -3,4 +3,39 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
+
+/*inzio header*/
+
+header{
+    background-color: rgb(255, 106, 0);
+}
+
+.header_container{
+    padding: 10px;
+    align-items: center;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 70%;
+}
+
+.header_container img{
+    height: 100px;
+    padding:20px;
+}
+
+.header_container a {
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a{
+    margin:10px;
+}
+
+
